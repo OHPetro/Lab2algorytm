@@ -22,7 +22,7 @@ class pixel_to_art():
         for a in range(len(strfilesplit)):     #перебираемо масив
             idraw.point((int(strfilesplit[a][0]), int(strfilesplit[a][1])), fill="white")      #підставляемо елементи масиву,як координти і ставимо пікселі на малюнку
 
-        #canvas.save("path", "PNG") зберігаемо у форматі PNG
+        #canvas.save("alglab2.png", "PNG") зберігаемо у форматі PNG
         canvas.show()     #виводимо малюнок
 
 
